@@ -1,0 +1,163 @@
+/* fv */
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 100;
+    background: #F1F2F2;
+}
+
+.sp {
+    display: none;
+  }
+
+#fv {
+    background: #00A3D9;
+    height: 100vh;
+    padding: 40px;
+}
+
+header{
+    position: fixed;
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #00A3D9;
+    z-index: 100;
+}
+
+header nav ul {
+    display: flex;
+    gap: 100px;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 27px;
+    padding: 25px;
+}
+
+header nav ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hover-black:hover{
+    color: black;
+}
+
+.fv-text{
+    color: #fff;
+    margin-top: 360px;
+}
+
+.fv-text p {
+    font-size: 100px;
+}
+
+.fv-text h1 {
+    font-size: 50px;
+}
+
+/* about */
+#about{
+    padding: 200px 150px;
+}
+
+.plofile-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
+    font-size: 30px;
+}
+
+.profile-box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+dl {
+    display: flex;
+    gap: 80px;
+}
+
+dt {
+    width: 150px;
+}
+
+h2{
+    font-size: 60px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.about-container{
+    font-size: 20px;
+    line-height: 250%;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 5em;
+	background-color:#fff;
+}
+
+.outer{
+    margin-left: 110px;
+}
+
+#skill{
+    padding: 200px 150px;
+}
+
+.skill-box{
+    display: flex;
+    justify-content: flex-start;
+    gap: 235px;
+    font-size: 30px;
+}
+
+.skill-box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#strength{
+    padding: 200px 150px;
+}
+
+.strength-box{
+    font-size: 20px;
+    line-height: 200%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.st-box-element{
+    display: inline-block;
+    background-color:#fff;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.st-box-top{
+    margin-bottom: 50px;
+}
+
+#ev {
+    background: #00A3D9;
+    height: 15vh;
+    padding: 40px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 27px;
+    line-height: 100%;
+    margin-top: 30px;
+    text-align: center;
+}

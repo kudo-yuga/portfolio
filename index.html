@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        　　$(window).load(function() {
+        　　　$('a[href^=#]').click(function() {
+        　　　　var speed = 500;
+        　　　　var href = $(this).attr("href");
+        　　　　var target = $(href == "#" || href == "" ? 'html' : href);
+        　　　　var position = target.offset().top;
+        　　　　$("html, body").animate({
+        　　　　　scrollTop: position
+        　　　　}, speed, "swing");
+        　　　　return false;
+        　　　});
+        　　});
+    </script>
+</head>
+
+<body>
+    <!-- fv -->
+     <section id="fv">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="hover-black">ABOUT</a></li>
+                    <li><a href="#skill" class="hover-black">SKILL</a></li>
+                    <li><a href="#strength" class="hover-black">MY STRENGTH</a></li>
+                    <li><a href="#ev" class="hover-black">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="fv-text">
+            <p>YUGA KUDO</p>
+            <h1 class="noto-sans-jp">MY PROFILE</h1>
+        </div>
+     </section>
+
+    <!-- about -->
+     <section id="about">
+        <h2 class="noto-sans-jp">ABOUT</h2>
+        <div class="plofile-box">
+            <h3 class="noto-sans-jp">PROFILE</h3>
+            <div class="profile-box-right">
+                <dl>
+                    <dt>name</dt>
+                    <dd><span>工藤　悠雅</span><span>-クドウ　ユウガ-</span></dd>
+                </dl>
+
+                <dl>
+                    <dt>age</dt>
+                    <dd>26</dd>
+                </dl>
+
+                <dl>
+                    <dt>from</dt>
+                    <dd>岩手県</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="about-container">
+                <p>大学、大学院ではスポーツバイオメカニクスを学び、陸上競技の走幅跳に学生生活を捧げました。その後は大学職員とwebディレクション職を経て現在に至ります。大学職員当時、興味のあったWebデザインとグラフィックデザインを学びたいと思い、プログラミングスクールに通いました。<br>
+                ＜趣味＞　筋トレ / 料理 / ドライブ / フットサル</p>
+            </div>
+        </div>
+     </section>
+
+    <section id="skill">
+        <div class="skill-box">
+            <h3 class="noto-sans-jp">SKILL</h3>
+            <div class="skill-box-right">
+                <dl>
+                    <dt>Design</dt>
+                    <dd>Photoshop / Figma</dd>
+                </dl>
+    
+                <dl>
+                    <dt>Cording</dt>
+                    <dd>HTML / CSS / jQuery</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <section id="strength">
+        <h2 class="noto-sans-jp">MY STRENGTH</h2>
+        <div class="strength-box">
+            <div class="st-box-element">
+                <h3 class="st-box-top">挑戦力</h3>
+                <p>「まずはやってみる」をモットー<br>
+                    としています。やってみないとわ<br>
+                    からないことが多くあることや、<br>
+                    そこでしか得られないものがある<br>
+                    ことを知っています。その経験を<br>
+                    大事にしています。
+                </p>
+            </div>
+        
+            <div class="st-box-element">
+                <h3 class="st-box-top">向上心と探究心</h3>
+                <p>できないことがあることがすごく<br>
+                    嫌で、できるようになるためにと<br>
+                    ことん追求します。そして、やる<br>
+                    からにはただできるようになるの<br>
+                    ではなく、さらに上を目指すこと<br>
+                    ができます。
+                </p>
+            </div>
+            
+            <div class="st-box-element">
+                <h3 class="st-box-top">継続力と忍耐力</h3>
+                <p>苦しいことや困難なことがあった<br>
+                    としても、やるべきことは最後ま<br>
+                    で取り組みます。そして、やりた<br>
+                    いことややるべきことは、自己成<br>
+                    長や後に活きると信じて継続でき<br>
+                    ます。
+                </p>
+            </div>
+        </div>
+    </section>
+
+     <section id="ev">
+        <footer>
+            <div class="ev-text">
+                <p>CONTACT</p>
+                <p>kudo3543@gmail.com</p>
+            </div>
+        </footer>
+     </section>
+</body>
+</html>
